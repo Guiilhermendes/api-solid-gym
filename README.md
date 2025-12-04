@@ -10,9 +10,9 @@ GymPass style app.
 - [x] should be able to get check-ins number from connected user;
 - [x] should be able to get user's check-ins history;
 - [x] should be able to find nearby gyms (until 10km);
-- [] should be able to find gyms by name;
+- [x] should be able to find gyms by name;
 - [x] should be able to do check-in at gym;
-- [] should be able to validate user check-in;
+- [x] should be able to validate user check-in;
 - [x] should be able to register a gym;
 
 ## BR (Business rules)

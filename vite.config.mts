@@ -18,6 +18,8 @@ export default defineConfig({
         test: {
           name: 'e2e',
           dir: 'src/http/controllers',
+          setupFiles: ['./prisma/vitest-environment-prisma/vitest-e2e-setup.ts'],
+          pool: 'forks',
         }
       },
     ]

@@ -1,5 +1,5 @@
 import { prisma } from '@/lib/prisma';
-import { CheckIn, Prisma } from 'generated/prisma';
+import { CheckIn, Prisma } from '@prisma/client';
 import { CheckInsRepository } from '../check-ins-repository';
 import dayjs from 'dayjs';
 
